@@ -1,4 +1,10 @@
 /* global shoppingList, store, api */
+'use strict';
+
+import $ from 'jquery';
+import api from '../src/api';
+import shoppingList from '../src/shopping-list';
+import './index.css';
 
 $(document).ready(function() {
   shoppingList.bindEventListeners();
